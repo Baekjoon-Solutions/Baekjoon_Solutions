@@ -1,5 +1,5 @@
 # Baekjoon_Solutions
-This repository offers solutions in various languages to the problems on the Baekjoon online judge platform.
+This repository offers solutions in various languages to the problems on the [Baekjoon online judge](https://www.acmicpc.net/) platform.
 
 ## Table of Contents
 1. [Contributing](#contributing)
