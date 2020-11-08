@@ -2,7 +2,7 @@
 We decided on a coding convention for the three languages.   
 Coding conventions help make code easier for multiple people to read.
 * [Python](#python)
-* [C++](#c++)
+* [C++](#c)
 * [Java](#java)
 
 ## Python
