@@ -1,5 +1,12 @@
-# Python
-Python code convention lead follow things.   
+# Coding Convention
+We decided on a coding convention for the three languages.   
+Coding conventions help make code easier for multiple people to read.
+* [Python](#python)
+* [C++](#c++)
+* [Java](#java)
+
+## Python
+Python coding convention lead follow things.   
 <https://www.python.org/dev/peps/pep-0008/>
 
 exception
@@ -17,3 +24,8 @@ exception
 	&nbsp;&nbsp;&nbsp;&nbsp;VariableName (x)   
 	&nbsp;&nbsp;&nbsp;&nbsp;variableName (o)   
 
+## C++
+C++ coding convention   
+
+## Java
+Java coding convention   
