@@ -12,7 +12,7 @@ This repository offers solutions in various languages to the problems on the [Ba
 | --------   | -------------- |
 | Java       | 1.8 and above          |
 | Python     | do seungbok           |
-| C++     | checking           |
+| C++     | C++ 14 and above           |
 
 ## ⭐ Contributing
 We welcome all your contributions.   
