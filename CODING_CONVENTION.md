@@ -1,6 +1,6 @@
 # Coding Convention
 We decided on a coding convention for the three languages.   
-Coding conventions help make code easier for multiple people to read.
+With these coding conventions, we can make code **consistent way**. It helps others to understand code more easily!
 * [Python](#python)
 * [C++](#c)
 * [Java](#java)
