@@ -2,10 +2,10 @@
 This repository offers solutions in various languages to the problems on the [Baekjoon online judge](https://www.acmicpc.net/) platform.
 
 ## ⭐ Table of Contents
-1. [Prerequisites](#prerequisites)
-2. [Contributing](#contributing)
-3. [Coding Convention](#coding-convention)
-4. [License](#license)
+1. [Prerequisites](#-prerequisites)
+2. [Contributing](#-contributing)
+3. [Coding Convention](#-coding-convention)
+4. [License](#-license)
 
 ## ⭐ Prerequisites
 | Language   | Version         |
