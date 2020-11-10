@@ -25,7 +25,15 @@ exception
 	&nbsp;&nbsp;&nbsp;&nbsp;variableName (o)   
 
 ## C++
-C++ coding convention   
+
+* We use [clang-format](http://clang.llvm.org/docs/ClangFormat.html) to auto formatting. Before contributing solution written in C++, apply clang formatting to make code constant.
+* Naming convention guide follows [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Naming).
+	```c++
+	// here is simple and common examples of naming
+	int current_number;	//variable name
+	addPriorValue();	//function and class name
+	const int DEFAULT_SIZE = 10;	//constant name
+	```
 
 ## Java
 Java coding convention   
