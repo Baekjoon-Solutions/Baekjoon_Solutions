@@ -14,5 +14,11 @@ If you want to contribute, please read our [contributing guide](CONTRIBUTING.md)
 We decided on a coding convention to make it easier for many people to read.   
 Before contributing code, please read the [coding convention](CODING_CONVENTION.md) to see if your code fits our coding convention.   
 
+## ⭐ Prerequisites
+| Language   | Version         |
+| --------   | -------------- |
+| Java       | 1.8 and above          |
+| Python     | do seungbok           |
+
 ## ⭐ License
 [Apache 2.0](LICENSE)
