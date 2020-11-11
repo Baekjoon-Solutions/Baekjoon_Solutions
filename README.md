@@ -11,7 +11,7 @@ This repository offers solutions in various languages to the problems on the [Ba
 | Language   | Version         |
 | --------   | -------------- |
 | Java       | 1.8 and above          |
-| Python     | do seungbok           |
+| Python     | Python3           |
 | C++     | C++ 14 and above           |
 
 ## ⭐ Contributing
