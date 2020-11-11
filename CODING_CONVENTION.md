@@ -36,4 +36,5 @@ exception
 	```
 
 ## Java
-Java coding convention   
+* Refer to [the official Oracle document](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
+* Remove the package name.
