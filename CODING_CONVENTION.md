@@ -38,3 +38,11 @@ exception
 ## Java
 * Refer to [the official Oracle document](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
 * Remove the package name.
+* Declare only one declaration per line.
+	```
+	// do
+	int a;
+	int b;
+	// do not
+	int a, b;
+	```
