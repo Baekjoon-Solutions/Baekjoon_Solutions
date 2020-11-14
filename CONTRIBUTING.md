@@ -20,7 +20,7 @@ The process is simple.
 Pull Request must meet the following conditions:
 1. Specify the name and number of the problem, the algorithm used, memory and time in the contents of the commit.
 2. The filename is in the form 'Language/problem number_problem name/problem number_Algorithm.extension'.   
-	ex) Java/5243_counting_the_number_of_cases/5243_Algorithm.java
+	ex) Java/5243_counting_the_number_of_cases/5243_Classification.java
 3. For Java files, remove package name
 4. For problems where solutions are already published, state that it is a contribution to the existing problem as a commit content.
 
