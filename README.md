@@ -19,8 +19,8 @@
 기여에 참여하고 싶다면 [기여 하는 방법](CONTRIBUTING.md)을 읽어주세요.
 
 ## ⭐ Coding Convention
-기여하기 전에 [규칙](CODING_CONVENTION.md)을 꼭 읽어주세요.
-우리의 규칙에 기여할 내용이 적절한지 확인해 주세요!
+우리는 많은 사람들이 쉽게 코드를 이해하고, 수정할 수 있게 하기 위해 일종의 규칙인 [Coding Convention](CODING_CONVENTION.md)을 정했습니다.
+Solution을 기여하고 싶거나, 버그 리포트를 하기 전 상단의 규칙을 꼭 읽어주세요.
 
 ## ⭐ License
 [Apache 2.0](LICENSE)
