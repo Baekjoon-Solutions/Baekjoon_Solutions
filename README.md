@@ -12,7 +12,9 @@
 | --------   | -------------- |
 | Java       | 1.8 and above          |
 | Python     | Python3           |
-| C++     | C++ 14 and above           |
+| C++     | C++ 14 and above           |   
+   
+
 이 리포지토리는 일정 등급 이상의 문제에 대한 solution을 원합니다.   
 문제 등급은 solved.ac 라는 프로그램에 의해 측정된 등급을 기준으로 합니다.   
 1. 크롬 확장 프로그램인 solved.ac 를 설치해주세요.
@@ -44,7 +46,9 @@ This repository offers solutions in various languages to the problems on the [Ba
 | --------   | -------------- |
 | Java       | 1.8 and above          |
 | Python     | Python3           |
-| C++     | C++ 14 and above           |
+| C++     | C++ 14 and above           |   
+   
+
 This repository wants solutions code for problems above a certain rating.   
 Problem rating are based on rating measured by a program called solved.ac.   
 1. Please install solved.ac, a chrome extension program.
