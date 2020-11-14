@@ -1,6 +1,6 @@
 # Coding Convention
 We decided on a coding convention for the three languages.   
-Coding conventions help make code easier for multiple people to read.
+With these coding conventions, we can make code **consistent way**. It helps others to understand code more easily!
 * [Python](#python)
 * [C++](#c)
 * [Java](#java)
@@ -25,7 +25,24 @@ exception
 	&nbsp;&nbsp;&nbsp;&nbsp;variableName (o)   
 
 ## C++
-C++ coding convention   
+
+* We use [clang-format](http://clang.llvm.org/docs/ClangFormat.html) to auto formatting. Before contributing solution written in C++, apply clang formatting to make code constant.
+* Naming convention guide follows [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Naming).
+	```c++
+	// here is simple and common examples of naming
+	int current_number;	//variable name
+	addPriorValue();	//function and class name
+	const int DEFAULT_SIZE = 10;	//constant name
+	```
 
 ## Java
-Java coding convention   
+* Refer to [the official Oracle document](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
+* Remove the package name.
+* Declare only one declaration per line.
+	``` Java
+	// do
+	int a;
+	int b;
+	// do not
+	int a, b;
+	```
