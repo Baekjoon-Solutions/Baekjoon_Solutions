@@ -6,23 +6,13 @@ With these coding conventions, we can make code **consistent way**. It helps oth
 * [Java](#java)
 
 ## Python
-Python coding convention lead follow things.   
-<https://www.python.org/dev/peps/pep-0008/>
+Python code convention은 [여기](https://www.python.org/dev/peps/pep-0008/)를 참고해주세요.
 
-exception
-1. indent : 4 space --> 1 tab
-2. string : "", '' --> unify ""   
-	ex) stringFormat = 'It is style guide' (x)   
-	&nbsp;&nbsp;&nbsp;&nbsp;stringFormat = "It is style guide" (o)
-3. not import one line with more 2 things --> 2 more things ok if same modules   
-	ex) import os   
-	&nbsp;&nbsp;&nbsp;&nbsp;import sys (x)   
-	&nbsp;&nbsp;&nbsp;&nbsp;import os, import sys (o)
-4. classname, all variable name using camelcase ---> classname must be start uppercase, variable must be start lowercase   
-	ex) def ClassName: (o)   
-	&nbsp;&nbsp;&nbsp;&nbsp;def className: (x)   
-	&nbsp;&nbsp;&nbsp;&nbsp;VariableName (x)   
-	&nbsp;&nbsp;&nbsp;&nbsp;variableName (o)   
+Exception
+* indent는 tab을 사용해주세요.
+* string은 "", ''이 아닌 ""으로 통일해주세요.
+* 같은 module, library는 한줄에 import해주세요.
+* classname은 대문자, variable은 소문자로 시작해주세요.
 
 ## C++
 
