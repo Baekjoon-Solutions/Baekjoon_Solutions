@@ -12,7 +12,6 @@ Exception
 * indent는 tab을 사용해주세요.
 * string은 "", ''이 아닌 ""으로 통일해주세요.
 * 같은 module, library는 한줄에 import해주세요.
-* classname은 대문자, variable은 소문자로 시작해주세요.
 
 ## C++
 
