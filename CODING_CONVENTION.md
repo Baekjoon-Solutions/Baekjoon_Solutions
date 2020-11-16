@@ -1,6 +1,6 @@
 # Coding Convention
-We decided on a coding convention for the three languages.   
-With these coding conventions, we can make code **consistent way**. It helps others to understand code more easily!
+우리는 3가지 언어에 대해 coding convention을 정해 두었습니다.
+이를 통해 우리는 코드를 **일관성 있게** 할 수 있고, 이는 다른 사람들이 코드를 이해하기 쉽게 만들어 이후의 기여나 버그 픽스에 도움을 줄 것입니다.😊
 * [Python](#python)
 * [C++](#c)
 * [Java](#java)
@@ -15,10 +15,10 @@ Exception
 
 ## C++
 
-* We use [clang-format](http://clang.llvm.org/docs/ClangFormat.html) to auto formatting. Before contributing solution written in C++, apply clang formatting to make code constant.
-* Naming convention guide follows [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Naming).
+* 우리는 자동 포맷팅을 위해 [clang-format](http://clang.llvm.org/docs/ClangFormat.html)을 사용합니다. C++로 작성된 코드를 기여하기 전, clang format을 적용해 일관성 있는 코드를 만들어 주세요!
+* 이름 규칙은 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Naming)을 따릅니다.
 	```c++
-	// here is simple and common examples of naming
+	// 간단한 예시
 	int current_number;	//variable name
 	addPriorValue();	//function and class name
 	const int DEFAULT_SIZE = 10;	//constant name
