@@ -25,9 +25,21 @@ Exception
 	```
 
 ## Java
-* Refer to [the official Oracle document](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
-* Remove the package name.
-* Declare only one declaration per line.
+* 자세한 내용은 [오라클 공식 문서](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)를 참고해 주세요.
+* 패키지 이름은 제거해서 올려 주세요.
+	``` Java
+	// Do
+	import java.io.*;	
+	public class Main {
+	}
+	
+	// Do not
+	package package_name;
+	import java.io.*;	
+	public class Main {
+	}
+	```
+* 선언문은 한 줄에 하나만 작성해 주세요.
 	``` Java
 	// do
 	int a;
