@@ -19,11 +19,12 @@ Pull Request는 GitHub에서 코드 수정을 관리하는 프로세스입니다
 3. Baekjoon_Solutions의 main branch에 대해 Pull Request를 생성하세요.   
    
 Pull Request는 다음 조건을 충족해야 합니다.   
-1. commit 내용에 문제의 이름과 번호, 사용된 알고리즘, 메모리, 시간을 명시하세요.
+1. commit 내용에 문제의 이름과 번호를 명시하세요.   
+	ex) 5243_경우의_수_세기
 2. 파일 이름은 '언어/문제 번호_문제 이름/문제 번호_알고리즘.확장자' 형식을 맞춰주세요.   
         ex) Java/5243_경우의_수_세기/5243_분류.java
 3. Java 파일의 경우에는 패키지 이름을 제거하세요.
-4. 이미 solution이 존재하는 문제에 대해서는 commit 내용으로 기존 문제에 대한 기여라고 명시해주세요.   
+4. 이미 solution이 존재하는 문제에 대해서는 Pull Request 템플릿에 있는 체크박스에 표시해주세요.   
    
 4번의 경우, 시간과 메모리가 우수하거나 다른 solution인 경우에 채택합니다.   
    
@@ -51,11 +52,12 @@ The process is simple.
 3. Create a Pull Request against the main branch of Baekjoon_Solutions.
    
 Pull Request must meet the following conditions:
-1. Specify the name and number of the problem, the algorithm used, memory and time in the contents of the commit.
+1. Specify the name and number of the problem in the contents of the commit.   
+	ex) 5243_counting_the_number_of_cases
 2. The filename is in the form 'Language/problem number_problem name/problem number_Algorithm.extension'.   
 	ex) Java/5243_counting_the_number_of_cases/5243_Classification.java
 3. For Java files, remove package name
-4. For problems where solutions are already published, state that it is a contribution to the existing problem as a commit content.
+4. For problems where solutions are already published, please mark in the check box on the Pull Request template.   
 
 In case of number 4, it is adopted when time and memory are excellent or other solutions.   
 
