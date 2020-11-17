@@ -15,7 +15,7 @@ Exception
 
 ## C++
 
-* 우리는 자동 포맷팅을 위해 [clang-format](http://clang.llvm.org/docs/ClangFormat.html)을 사용합니다. C++로 작성된 코드를 기여하기 전, clang format을 적용해 일관성 있는 코드를 만들어 주세요!
+* 우리는 자동 포맷팅을 위해 Visual Studio의 포맷팅 스타일을 따릅니다. C++로 작성된 코드를 기여하기 전, 해당 포맷팅을 자동 정렬을 통해 적용해 일관성 있는 코드를 만들어 주세요!
 * 이름 규칙은 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Naming)을 따릅니다.
 	```c++
 	// 간단한 예시
