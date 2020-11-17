@@ -1,6 +1,6 @@
 # Coding Convention
-We decided on a coding convention for the three languages.   
-With these coding conventions, we can make code **consistent way**. It helps others to understand code more easily!
+우리는 3가지 언어에 대해 coding convention을 정해 두었습니다.
+이를 통해 우리는 코드를 **일관성 있게** 할 수 있고, 이는 다른 사람들이 코드를 이해하기 쉽게 만들어 이후의 기여나 버그 픽스에 도움을 줄 것입니다.😊
 * [Python](#python)
 * [C++](#c)
 * [Java](#java)
@@ -15,19 +15,31 @@ Exception
 
 ## C++
 
-* We use [clang-format](http://clang.llvm.org/docs/ClangFormat.html) to auto formatting. Before contributing solution written in C++, apply clang formatting to make code constant.
-* Naming convention guide follows [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Naming).
+* 우리는 자동 포맷팅을 위해 Visual Studio의 포맷팅 스타일을 따릅니다. C++로 작성된 코드를 기여하기 전, 해당 포맷팅을 자동 정렬을 통해 적용해 일관성 있는 코드를 만들어 주세요!
+* 이름 규칙은 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Naming)을 따릅니다.
 	```c++
-	// here is simple and common examples of naming
+	// 간단한 예시
 	int current_number;	//variable name
 	addPriorValue();	//function and class name
 	const int DEFAULT_SIZE = 10;	//constant name
 	```
 
 ## Java
-* Refer to [the official Oracle document](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
-* Remove the package name.
-* Declare only one declaration per line.
+* 자세한 내용은 [오라클 공식 문서](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)를 참고해 주세요.
+* 패키지 이름은 제거해서 올려 주세요.
+	``` Java
+	// Do
+	import java.io.*;	
+	public class Main {
+	}
+	
+	// Do not
+	package package_name;
+	import java.io.*;	
+	public class Main {
+	}
+	```
+* 선언문은 한 줄에 하나만 작성해 주세요.
 	``` Java
 	// do
 	int a;
