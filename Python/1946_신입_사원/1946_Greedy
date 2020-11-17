@@ -11,11 +11,11 @@ def solution(applicants):
     return answer
     
 if __name__=='__main__':
-    T = int(sys.stdin.readline())
-    for ti in range(T):
-        N = int(sys.stdin.readline())
+    t = int(sys.stdin.readline())
+    for ti in range(t):
+        n = int(sys.stdin.readline())
         applicants = []
-        for ni in range(N):
+        for ni in range(n):
             applicants.append(list(map(int, sys.stdin.readline().split())))
         solution(applicants)
         print(solution(applicants))
