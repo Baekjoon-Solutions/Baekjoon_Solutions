@@ -3,7 +3,7 @@
 using namespace std;
 
 // 최대공약수를 구하는 공식
-int gcd(int x, int y) {
+int Gcd(int x, int y) {
 	while (y > 0)
 	{
 		int mod_value = x % y;
@@ -13,7 +13,7 @@ int gcd(int x, int y) {
 }
 
 // 최소공배수를 구하는 공식
-int lcm(int x, int y, int gcd_value) {
+int Lcm(int x, int y, int gcd_value) {
 	return x * y / gcd_value;
 }
 
@@ -23,7 +23,7 @@ int main() {
 	int x, y;
 	cin >> x >> y;
 
-	int gcd_value = gcd(x, y);
+	int gcd_value = Gcd(x, y);
 	cout << gcd_value << "\n";
-	cout << lcm(x, y, gcd_value);
+	cout << Lcm(x, y, gcd_value);
 }
