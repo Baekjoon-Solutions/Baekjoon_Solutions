@@ -20,7 +20,7 @@ Exception
 	```c++
 	// 간단한 예시
 	int current_number;	//variable name
-	addPriorValue();	//function and class name
+	AddPriorValue();	//function and class name
 	const int DEFAULT_SIZE = 10;	//constant name
 	```
 
